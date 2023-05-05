@@ -16,6 +16,7 @@ The API endpoints exposed by the service and can be mainly divided into 3 catego
 
 ```mermaid
 classDiagram
+direction LR
 Application "1" --> "*" Environment
 Environment "1" --> "*" Configuration
 class Application{
